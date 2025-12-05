@@ -1,7 +1,9 @@
 import pygame
 import random
 from enum import Enum
-
+a=90
+b=20
+c=a-b
 class Direction(Enum):
     UP = (0, -1)
     DOWN = (0, 1)
